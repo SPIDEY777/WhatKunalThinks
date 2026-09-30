@@ -1,0 +1,5 @@
+#!/bin/sh
+MAVEN_HOME="${MAVEN_HOME:-}"
+DIR="$(cd "$(dirname "$0")" && pwd)"
+exec mvn -f "$DIR/pom.xml" "$@"
+
