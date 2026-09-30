@@ -1,3 +1,28 @@
+# Java
 target/
 **/target/
+*.class
+
+# Maven
+/.mvn/
+/.mvnw
+/.mvnw.cmd
+
+# Node
+/node_modules/
+/frontend/node_modules/
+/dist/
+
+# IDE
+.idea/
+.vscode/
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+
 
